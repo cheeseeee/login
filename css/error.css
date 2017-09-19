@@ -1,0 +1,51 @@
+/*
+* @Author: 靳振国
+* @Date:   2017-09-16 14:37:34
+* @Last Modified by:   靳振国
+* @Last Modified time: 2017-09-17 00:34:22
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+*{
+	font-size: 14px;
+	font-family: sans-serif
+}
+a{
+	color: #000;
+	text-decoration: underline;
+}
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width: 100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+main{
+	width: 300px;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 15px 20px;
+}
+main>h3{
+	font-size: 20px;
+	margin: 10px auto;
+} 
+main p #info{
+	font-size: 22px;
+	color: skyblue;
+	margin-right: 5px;
+}
